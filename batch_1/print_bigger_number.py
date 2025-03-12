@@ -1,4 +1,4 @@
-#  Prompts the user for two numbers and prints the bigger one.  -mew
+#  Prompts the user for two numbers and prints the bigger number. 
 
 num1 = float(input("Enter Number 1: ")) 
 num2 = float(input("Enter Number 2: "))
