@@ -2,12 +2,12 @@
 # For numbers with duplicate, display only the first entry.
 
 num_list = []
-duplicates = []
+seen_num = []
+
 for count in range(10):
     num = float(input("Enter number " + str(count + 1) + ": "))
-    if num not in duplicates:
+    if num not in seen_num:
         num_list.append(num)
-        duplicates.append(num)
+        seen_num.append(num)
 
-print(num_list)
-    
+print("The numbers are:", num_list)
