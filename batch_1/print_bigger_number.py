@@ -1,4 +1,4 @@
-# Program: Find the Bigger Number Between Two Numbers
+#  Prompts the user for two numbers and prints the bigger one.  -mew
 
 num1 = float(input("Enter Number 1: ")) 
 num2 = float(input("Enter Number 2: "))

@@ -1,4 +1,4 @@
-# Prompts the user for two numbers and checks if they are equal.
+# Prompts the user for two numbers, checks if they are equal, and prints the bigger one. -mew
 
 num1 = float(input("Enter Number 1: ")) 
 num2 = float(input("Enter Number 2: "))
