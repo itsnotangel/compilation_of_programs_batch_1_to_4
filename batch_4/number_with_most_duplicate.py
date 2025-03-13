@@ -7,7 +7,9 @@ while True:
         num_list.append(num)
     except ValueError:
         break
-    
+
 if num_list:
     mode = max(set(num_list), key=num_list.count)
-    print(mode)
+    print("The number with most duplicate:", mode)
+else:
+    print("Invalid")
