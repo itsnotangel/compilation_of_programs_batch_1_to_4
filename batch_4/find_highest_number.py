@@ -2,5 +2,7 @@
 # Continue asking until the user input is invalid. 
 # Display the highest number.
 
+num_list = []
 num = float(input("Enter a number: "))
-print(num)
+num_list.append(num)
+print(num_list)
