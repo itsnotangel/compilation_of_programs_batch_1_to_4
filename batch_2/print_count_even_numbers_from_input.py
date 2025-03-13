@@ -3,7 +3,7 @@
 even_count = 0
 
 for count in range(10):
-    number = int(input("Enter number " + str(count+1) + ": "))
+    number = int(input("Enter number " + str(count + 1) + ": "))
     if number % 2 == 0:
         even_count += 1
 
