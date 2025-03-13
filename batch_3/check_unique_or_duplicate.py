@@ -6,10 +6,13 @@ num_list = []
 while True:
     try:
         num = float(input("Enter a number: "))
-        num_list.append(num)
-        print(num_list)
+        if num not in num_list:
+            print("Unique")
+            num_list.append(num)
+        else:
+            print("Duplicate")
     except ValueError:
-        print("Invalid")
+        print("End")
         break
 
 
