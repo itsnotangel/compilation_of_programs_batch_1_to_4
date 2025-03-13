@@ -2,6 +2,11 @@
 # Displays the numbers from lowest to highest.
 
 num_list = []
-num = float(input("Enter a number: "))
-num_list.append(num)
-print(num_list)
+
+while True:
+    try:
+        num = float(input("Enter a number: "))
+        num_list.append(num) 
+    except ValueError:
+        print("Ascending order:", num_list)
+        break
