@@ -9,5 +9,6 @@ while True:
         num_list.append(num)
         num_list.sort()  
     except ValueError:
-        print("Ascending order:", num_list)
         break
+
+print("Ascending order:", num_list)
