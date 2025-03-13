@@ -10,6 +10,9 @@ while True:
 
 if num_list:
     mode = max(set(num_list), key=num_list.count)
-    print("The number with most duplicate:", mode)
+    if num_list.count(mode) == 1:
+        print("No duplicates.")
+    else:
+        print("The number with most duplicate:", mode)
 else:
     print("Invalid")
