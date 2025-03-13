@@ -9,4 +9,4 @@ for count in range(10):
 
 duplicate_num = list(set([num for num in num_list if num_list.count(num) > 1]))
 
-print(duplicate_num)
+print("Numbers with duplicates:", duplicate_num)
