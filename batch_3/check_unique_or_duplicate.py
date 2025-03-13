@@ -14,5 +14,3 @@ while True:
     except ValueError:
         print("End")
         break
-
-
