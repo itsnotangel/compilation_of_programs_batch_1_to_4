@@ -3,6 +3,12 @@
 # Display the highest number.
 
 num_list = []
-num = float(input("Enter a number: "))
-num_list.append(num)
-print(num_list)
+
+while True:
+    try:
+        num = float(input("Enter a number: "))
+        num_list.append(num)
+        print(num_list)
+    except ValueError:
+        print("Invalid")
+    break
