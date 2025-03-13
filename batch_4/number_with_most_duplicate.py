@@ -6,5 +6,8 @@ while True:
         num = float(input("Enter a number: "))
         num_list.append(num)
     except ValueError:
-        print(num_list)
         break
+    
+if num_list:
+    mode = max(set(num_list), key=num_list.count)
+    print(mode)
