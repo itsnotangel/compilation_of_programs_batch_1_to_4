@@ -1,7 +1,7 @@
 #  Prompts the user for two numbers and prints the bigger number. 
 
-num1 = float(input("Enter Number 1: ")) 
-num2 = float(input("Enter Number 2: "))
+num1 = float(input("Enter number 1: ")) 
+num2 = float(input("Enter number 2: "))
 
 if num1 > num2:
     print(num1, "is the bigger number.")
