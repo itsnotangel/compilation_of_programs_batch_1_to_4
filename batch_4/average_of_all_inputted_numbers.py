@@ -6,5 +6,9 @@ while True:
         num = float(input("Enter a number: "))
         num_list.append(num)
     except ValueError:
-        print(num_list)
         break
+
+if num_list:
+    print("The average is:", sum(num_list) / len(num_list))
+else:
+    print("Invalid")
