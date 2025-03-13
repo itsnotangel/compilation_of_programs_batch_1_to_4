@@ -7,8 +7,9 @@ while True:
         num = float(input("Enter a number: "))
         num_list.append(num)
     except ValueError:
-        print("Invalid")
         break
 
 if num_list:
     print("The lowest number is:", min(num_list))
+else:
+    print("Invalid input.")
