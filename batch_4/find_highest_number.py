@@ -9,8 +9,9 @@ while True:
         num = float(input("Enter a number: "))
         num_list.append(num)
     except ValueError:
-        print("Invalid")
         break
 
 if num_list:
     print("The highest number is:", max(num_list))
+else:
+    print("Invalid input.")
