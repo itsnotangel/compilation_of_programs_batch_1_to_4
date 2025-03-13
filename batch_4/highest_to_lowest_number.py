@@ -6,7 +6,9 @@ while True:
     try:
         num = float(input("Enter a number: "))
         num_list.append(num)
-        print(num_list)
     except ValueError:
         print("Invalid")
         break
+    
+if num_list:
+    print("Descending order:", num_list)
